@@ -1,0 +1,45 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>CheapShark Stores</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<h1>CheapShark Stores</h1>-->
+
+<!--<div id="stores-list"></div>-->
+
+<!--<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>-->
+<!--<script>-->
+<!--    $(document).ready(function() {-->
+<!--        // Make an AJAX request to the CheapShark API-->
+<!--        $.ajax({-->
+<!--            url: 'https://www.cheapshark.com/api/1.0/stores',-->
+<!--            method: 'GET',-->
+<!--            dataType: 'json',-->
+<!--            success: function(data) {-->
+<!--                // Handle the JSON response-->
+<!--                displayStores(data);-->
+<!--            },-->
+<!--            error: function(xhr, status, error) {-->
+<!--                console.error('Error fetching data:', error);-->
+<!--            }-->
+<!--        });-->
+
+<!--        function displayStores(stores) {-->
+<!--            // Display store information on the webpage-->
+<!--            var storesList = $('#stores-list');-->
+
+<!--            stores.forEach(function(store) {-->
+<!--                var storeDiv = $('<div>');-->
+<!--                storeDiv.html('<strong>' + store.storeName + '</strong> - ' + (store.isActive ? 'Active' : 'Inactive'));-->
+<!--                storesList.append(storeDiv);-->
+<!--            });-->
+<!--        }-->
+<!--    });-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
